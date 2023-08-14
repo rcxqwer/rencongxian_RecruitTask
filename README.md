@@ -825,7 +825,7 @@ int main(int argc, char **argv)
 
 ```bash
 source install/setup.bash
-ros2 run task5 img_srv_node
+ros2 run task5 img_client_node
 ```
 
 打开另外一个终端
@@ -1100,6 +1100,9 @@ ros2 run task exam_node
 ros2 bag play vision_task_0.db3
 
 ```
+
+
+
 
 
 查看视频数据
