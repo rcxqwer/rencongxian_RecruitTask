@@ -1114,8 +1114,8 @@ ros2 bag info vision_task_0.db3
 color/image_raw
 ```
 
+打开另一个终端
 发布视频 
-
 ```bash
 ros2 bag play vison_task_0.db3
 ```
