@@ -1,5 +1,8 @@
 # rencongxian_RecruitTask
 
+演示视频太大了，所以我上传到了B站
+https://www.bilibili.com/video/BV1tp4y1g7X3/
+
 下载项目
 
 ``` bash
