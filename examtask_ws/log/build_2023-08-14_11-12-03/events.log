@@ -1,0 +1,125 @@
+[0.000000] (-) TimerEvent: {}
+[0.000193] (task) JobQueued: {'identifier': 'task', 'dependencies': OrderedDict()}
+[0.000242] (task) JobStarted: {'identifier': 'task'}
+[0.016042] (task) JobProgress: {'identifier': 'task', 'progress': 'cmake'}
+[0.017310] (task) JobProgress: {'identifier': 'task', 'progress': 'build'}
+[0.018692] (task) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rcx/workspaece/examtask_ws/build/task', '--', '-j4', '-l4'], 'cwd': '/home/rcx/workspaece/examtask_ws/build/task', 'env': OrderedDict([('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('USER', 'rcx'), ('LC_TIME', 'zh_CN.UTF-8'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('all_proxy', 'socks://127.0.0.1:7890/'), ('SSH_AGENT_PID', '1727'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/rcx'), ('OLDPWD', '/home/rcx/workspaece/examtask_ws/src'), ('LESS', '-R'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ZSH', '/home/rcx/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('MANAGERPID', '1552'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:7890/'), ('ROS_DISTRO', 'foxy'), ('COLCON_PREFIX_PATH', '/home/rcx/workspaece/examtask_ws/install'), ('ALL_PROXY', 'socks://127.0.0.1:7890/'), ('LOGNAME', 'rcx'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '8:57461'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('USERNAME', 'rcx'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ren:@/tmp/.ICE-unix/1784,unix/ren:/tmp/.ICE-unix/1784'), ('INVOCATION_ID', '2329eebdf0984c87a9c2d4553d0e65a4'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5ec4e3fa_7f70_4abc_9727_165421aa8160'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('GNOME_TERMINAL_SERVICE', ':1.94'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rcx/workspaece/examtask_ws/install/task:/opt/ros/foxy'), ('SHELL', '/bin/zsh'), ('LC_NAME', 'zh_CN.UTF-8'), ('GDMSESSION', 'ubuntu'), ('QT_ACCESSIBILITY', '1'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rcx/workspaece/examtask_ws/build/task'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/rcx/workspaece/examtask_ws/install/task:/opt/ros/foxy')]), 'shell': False}
+[0.079032] (task) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target exam_node\x1b[0m\n'}
+[0.099096] (-) TimerEvent: {}
+[0.139559] (task) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/exam_node.dir/src/exam.cpp.o\x1b[0m\n'}
+[0.199802] (-) TimerEvent: {}
+[0.300359] (-) TimerEvent: {}
+[0.401232] (-) TimerEvent: {}
+[0.501894] (-) TimerEvent: {}
+[0.602909] (-) TimerEvent: {}
+[0.704445] (-) TimerEvent: {}
+[0.805232] (-) TimerEvent: {}
+[0.907022] (-) TimerEvent: {}
+[1.008262] (-) TimerEvent: {}
+[1.109287] (-) TimerEvent: {}
+[1.209882] (-) TimerEvent: {}
+[1.310760] (-) TimerEvent: {}
+[1.411393] (-) TimerEvent: {}
+[1.512520] (-) TimerEvent: {}
+[1.613651] (-) TimerEvent: {}
+[1.714268] (-) TimerEvent: {}
+[1.815199] (-) TimerEvent: {}
+[1.916090] (-) TimerEvent: {}
+[2.017298] (-) TimerEvent: {}
+[2.118391] (-) TimerEvent: {}
+[2.219293] (-) TimerEvent: {}
+[2.320253] (-) TimerEvent: {}
+[2.421869] (-) TimerEvent: {}
+[2.523140] (-) TimerEvent: {}
+[2.624435] (-) TimerEvent: {}
+[2.725378] (-) TimerEvent: {}
+[2.826350] (-) TimerEvent: {}
+[2.927291] (-) TimerEvent: {}
+[3.028231] (-) TimerEvent: {}
+[3.129106] (-) TimerEvent: {}
+[3.230194] (-) TimerEvent: {}
+[3.331161] (-) TimerEvent: {}
+[3.432064] (-) TimerEvent: {}
+[3.532732] (-) TimerEvent: {}
+[3.633835] (-) TimerEvent: {}
+[3.734375] (-) TimerEvent: {}
+[3.835481] (-) TimerEvent: {}
+[3.936818] (-) TimerEvent: {}
+[4.038364] (-) TimerEvent: {}
+[4.139256] (-) TimerEvent: {}
+[4.240272] (-) TimerEvent: {}
+[4.341438] (-) TimerEvent: {}
+[4.442205] (-) TimerEvent: {}
+[4.543126] (-) TimerEvent: {}
+[4.643796] (-) TimerEvent: {}
+[4.744535] (-) TimerEvent: {}
+[4.845430] (-) TimerEvent: {}
+[4.946156] (-) TimerEvent: {}
+[5.046938] (-) TimerEvent: {}
+[5.147995] (-) TimerEvent: {}
+[5.248822] (-) TimerEvent: {}
+[5.349894] (-) TimerEvent: {}
+[5.450312] (-) TimerEvent: {}
+[5.551264] (-) TimerEvent: {}
+[5.651890] (-) TimerEvent: {}
+[5.753441] (-) TimerEvent: {}
+[5.854738] (-) TimerEvent: {}
+[5.955514] (-) TimerEvent: {}
+[6.056341] (-) TimerEvent: {}
+[6.157394] (-) TimerEvent: {}
+[6.258274] (-) TimerEvent: {}
+[6.359227] (-) TimerEvent: {}
+[6.460567] (-) TimerEvent: {}
+[6.561272] (-) TimerEvent: {}
+[6.662569] (-) TimerEvent: {}
+[6.763192] (-) TimerEvent: {}
+[6.864384] (-) TimerEvent: {}
+[6.965189] (-) TimerEvent: {}
+[7.066544] (-) TimerEvent: {}
+[7.167448] (-) TimerEvent: {}
+[7.268191] (-) TimerEvent: {}
+[7.368810] (-) TimerEvent: {}
+[7.469601] (-) TimerEvent: {}
+[7.570430] (-) TimerEvent: {}
+[7.671387] (-) TimerEvent: {}
+[7.772280] (-) TimerEvent: {}
+[7.872852] (-) TimerEvent: {}
+[7.973387] (-) TimerEvent: {}
+[8.074298] (-) TimerEvent: {}
+[8.174893] (-) TimerEvent: {}
+[8.175317] (task) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable exam_node\x1b[0m\n'}
+[8.275114] (-) TimerEvent: {}
+[8.375765] (-) TimerEvent: {}
+[8.476389] (-) TimerEvent: {}
+[8.577188] (-) TimerEvent: {}
+[8.678404] (-) TimerEvent: {}
+[8.779170] (-) TimerEvent: {}
+[8.880249] (-) TimerEvent: {}
+[8.981072] (-) TimerEvent: {}
+[9.074112] (task) StdoutLine: {'line': b'[100%] Built target exam_node\n'}
+[9.082360] (-) TimerEvent: {}
+[9.088023] (task) CommandEnded: {'returncode': 0}
+[9.122090] (task) JobProgress: {'identifier': 'task', 'progress': 'install'}
+[9.136538] (task) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rcx/workspaece/examtask_ws/build/task'], 'cwd': '/home/rcx/workspaece/examtask_ws/build/task', 'env': OrderedDict([('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('USER', 'rcx'), ('LC_TIME', 'zh_CN.UTF-8'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('all_proxy', 'socks://127.0.0.1:7890/'), ('SSH_AGENT_PID', '1727'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/rcx'), ('OLDPWD', '/home/rcx/workspaece/examtask_ws/src'), ('LESS', '-R'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ZSH', '/home/rcx/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('MANAGERPID', '1552'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:7890/'), ('ROS_DISTRO', 'foxy'), ('COLCON_PREFIX_PATH', '/home/rcx/workspaece/examtask_ws/install'), ('ALL_PROXY', 'socks://127.0.0.1:7890/'), ('LOGNAME', 'rcx'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '8:57461'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('USERNAME', 'rcx'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ren:@/tmp/.ICE-unix/1784,unix/ren:/tmp/.ICE-unix/1784'), ('INVOCATION_ID', '2329eebdf0984c87a9c2d4553d0e65a4'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5ec4e3fa_7f70_4abc_9727_165421aa8160'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('GNOME_TERMINAL_SERVICE', ':1.94'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rcx/workspaece/examtask_ws/install/task:/opt/ros/foxy'), ('SHELL', '/bin/zsh'), ('LC_NAME', 'zh_CN.UTF-8'), ('GDMSESSION', 'ubuntu'), ('QT_ACCESSIBILITY', '1'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rcx/workspaece/examtask_ws/build/task'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/rcx/workspaece/examtask_ws/install/task:/opt/ros/foxy')]), 'shell': False}
+[9.145442] (task) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.146438] (task) StdoutLine: {'line': b'-- Installing: /home/rcx/workspaece/examtask_ws/install/task/lib/task/exam_node\n'}
+[9.148406] (task) StdoutLine: {'line': b'-- Set runtime path of "/home/rcx/workspaece/examtask_ws/install/task/lib/task/exam_node" to ""\n'}
+[9.148579] (task) StdoutLine: {'line': b'-- Up-to-date: /home/rcx/workspaece/examtask_ws/install/task/share/ament_index/resource_index/package_run_dependencies/task\n'}
+[9.148801] (task) StdoutLine: {'line': b'-- Up-to-date: /home/rcx/workspaece/examtask_ws/install/task/share/ament_index/resource_index/parent_prefix_path/task\n'}
+[9.148930] (task) StdoutLine: {'line': b'-- Up-to-date: /home/rcx/workspaece/examtask_ws/install/task/share/task/environment/ament_prefix_path.sh\n'}
+[9.149010] (task) StdoutLine: {'line': b'-- Up-to-date: /home/rcx/workspaece/examtask_ws/install/task/share/task/environment/ament_prefix_path.dsv\n'}
+[9.149074] (task) StdoutLine: {'line': b'-- Up-to-date: /home/rcx/workspaece/examtask_ws/install/task/share/task/environment/path.sh\n'}
+[9.149155] (task) StdoutLine: {'line': b'-- Up-to-date: /home/rcx/workspaece/examtask_ws/install/task/share/task/environment/path.dsv\n'}
+[9.149239] (task) StdoutLine: {'line': b'-- Up-to-date: /home/rcx/workspaece/examtask_ws/install/task/share/task/local_setup.bash\n'}
+[9.149416] (task) StdoutLine: {'line': b'-- Up-to-date: /home/rcx/workspaece/examtask_ws/install/task/share/task/local_setup.sh\n'}
+[9.149634] (task) StdoutLine: {'line': b'-- Up-to-date: /home/rcx/workspaece/examtask_ws/install/task/share/task/local_setup.zsh\n'}
+[9.149814] (task) StdoutLine: {'line': b'-- Up-to-date: /home/rcx/workspaece/examtask_ws/install/task/share/task/local_setup.dsv\n'}
+[9.149886] (task) StdoutLine: {'line': b'-- Installing: /home/rcx/workspaece/examtask_ws/install/task/share/task/package.dsv\n'}
+[9.149947] (task) StdoutLine: {'line': b'-- Up-to-date: /home/rcx/workspaece/examtask_ws/install/task/share/ament_index/resource_index/packages/task\n'}
+[9.150006] (task) StdoutLine: {'line': b'-- Up-to-date: /home/rcx/workspaece/examtask_ws/install/task/share/task/cmake/taskConfig.cmake\n'}
+[9.150063] (task) StdoutLine: {'line': b'-- Up-to-date: /home/rcx/workspaece/examtask_ws/install/task/share/task/cmake/taskConfig-version.cmake\n'}
+[9.150120] (task) StdoutLine: {'line': b'-- Up-to-date: /home/rcx/workspaece/examtask_ws/install/task/share/task/package.xml\n'}
+[9.152688] (task) CommandEnded: {'returncode': 0}
+[9.182642] (-) TimerEvent: {}
+[9.219413] (task) JobEnded: {'identifier': 'task', 'rc': 0}
+[9.220760] (-) EventReactorShutdown: {}

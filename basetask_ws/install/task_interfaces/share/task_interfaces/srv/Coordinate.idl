@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from task_interfaces/srv/Coordinate.srv
+// generated code does not contain a copyright notice
+
+#include "sensor_msgs/msg/Image.idl"
+
+module task_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      " request")
+    struct Coordinate_Request {
+      sensor_msgs::msg::Image image;
+    };
+    @verbatim (language="comment", text=
+      " response")
+    struct Coordinate_Response {
+      double x;
+
+      double y;
+    };
+  };
+};

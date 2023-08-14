@@ -1,0 +1,43 @@
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+-- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)
+-- Found image_transport: 2.4.0 (/opt/ros/foxy/share/image_transport/cmake)
+-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/rcx/workspaece/basetask_ws/build/task3
+[100%] Built target detect_node
+-- Install configuration: ""
+-- Up-to-date: /home/rcx/workspaece/basetask_ws/install/task3/lib/task3/detect_node
+-- Up-to-date: /home/rcx/workspaece/basetask_ws/install/task3/share/ament_index/resource_index/package_run_dependencies/task3
+-- Installing: /home/rcx/workspaece/basetask_ws/install/task3/share/ament_index/resource_index/parent_prefix_path/task3
+-- Up-to-date: /home/rcx/workspaece/basetask_ws/install/task3/share/task3/environment/ament_prefix_path.sh
+-- Installing: /home/rcx/workspaece/basetask_ws/install/task3/share/task3/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/rcx/workspaece/basetask_ws/install/task3/share/task3/environment/path.sh
+-- Installing: /home/rcx/workspaece/basetask_ws/install/task3/share/task3/environment/path.dsv
+-- Up-to-date: /home/rcx/workspaece/basetask_ws/install/task3/share/task3/local_setup.bash
+-- Up-to-date: /home/rcx/workspaece/basetask_ws/install/task3/share/task3/local_setup.sh
+-- Up-to-date: /home/rcx/workspaece/basetask_ws/install/task3/share/task3/local_setup.zsh
+-- Installing: /home/rcx/workspaece/basetask_ws/install/task3/share/task3/local_setup.dsv
+-- Installing: /home/rcx/workspaece/basetask_ws/install/task3/share/task3/package.dsv
+-- Up-to-date: /home/rcx/workspaece/basetask_ws/install/task3/share/ament_index/resource_index/packages/task3
+-- Up-to-date: /home/rcx/workspaece/basetask_ws/install/task3/share/task3/cmake/task3Config.cmake
+-- Up-to-date: /home/rcx/workspaece/basetask_ws/install/task3/share/task3/cmake/task3Config-version.cmake
+-- Up-to-date: /home/rcx/workspaece/basetask_ws/install/task3/share/task3/package.xml

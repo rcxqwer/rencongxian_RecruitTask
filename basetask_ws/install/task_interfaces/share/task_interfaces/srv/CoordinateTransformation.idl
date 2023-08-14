@@ -1,0 +1,29 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from task_interfaces/srv/CoordinateTransformation.srv
+// generated code does not contain a copyright notice
+
+
+module task_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      " request")
+    struct CoordinateTransformation_Request {
+      double x_a;
+
+      double y_a;
+
+      double x_offset;
+
+      double y_offset;
+
+      double theta;
+    };
+    @verbatim (language="comment", text=
+      " response")
+    struct CoordinateTransformation_Response {
+      double x_b;
+
+      double y_b;
+    };
+  };
+};

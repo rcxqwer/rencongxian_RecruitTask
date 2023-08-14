@@ -1,0 +1,4 @@
+Invoking command in '/home/rcx/workspaece/examtask_ws/build/task': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/rcx/workspaece/examtask_ws/build/task -- -j4 -l4
+Invoked command in '/home/rcx/workspaece/examtask_ws/build/task' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/rcx/workspaece/examtask_ws/build/task -- -j4 -l4
+Invoking command in '/home/rcx/workspaece/examtask_ws/build/task': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/rcx/workspaece/examtask_ws/build/task
+Invoked command in '/home/rcx/workspaece/examtask_ws/build/task' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/rcx/workspaece/examtask_ws/build/task

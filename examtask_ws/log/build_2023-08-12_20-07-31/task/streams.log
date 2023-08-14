@@ -1,0 +1,26 @@
+[0.023s] Invoking command in '/home/rcx/workspaece/examtask_ws/build/task': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/rcx/workspaece/examtask_ws/build/task -- -j4 -l4
+[0.183s] [35m[1mScanning dependencies of target exam_node[0m
+[0.201s] [ 50%] [32mBuilding CXX object CMakeFiles/exam_node.dir/src/exam.cpp.o[0m
+[2.037s] [100%] [32m[1mLinking CXX executable exam_node[0m
+[2.598s] [100%] Built target exam_node
+[2.608s] Invoked command in '/home/rcx/workspaece/examtask_ws/build/task' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/rcx/workspaece/examtask_ws/build/task -- -j4 -l4
+[2.645s] Invoking command in '/home/rcx/workspaece/examtask_ws/build/task': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/rcx/workspaece/examtask_ws/build/task
+[2.652s] -- Install configuration: ""
+[2.652s] -- Installing: /home/rcx/workspaece/examtask_ws/install/task/lib/task/exam_node
+[2.652s] -- Set runtime path of "/home/rcx/workspaece/examtask_ws/install/task/lib/task/exam_node" to ""
+[2.654s] -- Up-to-date: /home/rcx/workspaece/examtask_ws/install/task/share/ament_index/resource_index/package_run_dependencies/task
+[2.654s] -- Up-to-date: /home/rcx/workspaece/examtask_ws/install/task/share/ament_index/resource_index/parent_prefix_path/task
+[2.654s] -- Up-to-date: /home/rcx/workspaece/examtask_ws/install/task/share/task/environment/ament_prefix_path.sh
+[2.654s] -- Up-to-date: /home/rcx/workspaece/examtask_ws/install/task/share/task/environment/ament_prefix_path.dsv
+[2.654s] -- Up-to-date: /home/rcx/workspaece/examtask_ws/install/task/share/task/environment/path.sh
+[2.654s] -- Up-to-date: /home/rcx/workspaece/examtask_ws/install/task/share/task/environment/path.dsv
+[2.654s] -- Up-to-date: /home/rcx/workspaece/examtask_ws/install/task/share/task/local_setup.bash
+[2.654s] -- Up-to-date: /home/rcx/workspaece/examtask_ws/install/task/share/task/local_setup.sh
+[2.654s] -- Up-to-date: /home/rcx/workspaece/examtask_ws/install/task/share/task/local_setup.zsh
+[2.654s] -- Up-to-date: /home/rcx/workspaece/examtask_ws/install/task/share/task/local_setup.dsv
+[2.654s] -- Installing: /home/rcx/workspaece/examtask_ws/install/task/share/task/package.dsv
+[2.654s] -- Up-to-date: /home/rcx/workspaece/examtask_ws/install/task/share/ament_index/resource_index/packages/task
+[2.654s] -- Up-to-date: /home/rcx/workspaece/examtask_ws/install/task/share/task/cmake/taskConfig.cmake
+[2.654s] -- Up-to-date: /home/rcx/workspaece/examtask_ws/install/task/share/task/cmake/taskConfig-version.cmake
+[2.654s] -- Up-to-date: /home/rcx/workspaece/examtask_ws/install/task/share/task/package.xml
+[2.657s] Invoked command in '/home/rcx/workspaece/examtask_ws/build/task' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/rcx/workspaece/examtask_ws/build/task

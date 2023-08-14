@@ -1,0 +1,86 @@
+[0.706s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/rcx/workspaece/basetask_ws']
+[0.707s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], base_paths=['/home/rcx/workspaece/basetask_ws'], build_base='build', ignore_user_meta=False, log_base=None, log_level=None, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7f9636677ee0>>, metas=['./colcon.meta'], names_only=False, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, paths=None, paths_only=True, topological_graph=False, topological_graph_density=False, topological_graph_dot=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, topological_graph_legend=False, topological_order=False, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7f9636677ee0>, verb_name='list', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f96365a08e0>)
+[0.755s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.756s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.756s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.756s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.756s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.756s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/rcx/workspaece/basetask_ws'
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rcx/workspaece/basetask_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rcx/workspaece/basetask_ws) by extension 'ignore'
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rcx/workspaece/basetask_ws) by extension 'ignore_ament_install'
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rcx/workspaece/basetask_ws) by extensions ['colcon_pkg']
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rcx/workspaece/basetask_ws) by extension 'colcon_pkg'
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rcx/workspaece/basetask_ws) by extensions ['colcon_meta']
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rcx/workspaece/basetask_ws) by extension 'colcon_meta'
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rcx/workspaece/basetask_ws) by extensions ['ros']
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rcx/workspaece/basetask_ws) by extension 'ros'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rcx/workspaece/basetask_ws) by extensions ['cmake', 'python']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rcx/workspaece/basetask_ws) by extension 'cmake'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rcx/workspaece/basetask_ws) by extension 'python'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rcx/workspaece/basetask_ws) by extensions ['python_setup_py']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rcx/workspaece/basetask_ws) by extension 'python_setup_py'
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rcx/workspaece/basetask_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rcx/workspaece/basetask_ws/build) by extension 'ignore'
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rcx/workspaece/basetask_ws/build) ignored
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rcx/workspaece/basetask_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rcx/workspaece/basetask_ws/install) by extension 'ignore'
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rcx/workspaece/basetask_ws/install) ignored
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rcx/workspaece/basetask_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rcx/workspaece/basetask_ws/log) by extension 'ignore'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rcx/workspaece/basetask_ws/log) ignored
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rcx/workspaece/basetask_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rcx/workspaece/basetask_ws/src) by extension 'ignore'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rcx/workspaece/basetask_ws/src) by extension 'ignore_ament_install'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rcx/workspaece/basetask_ws/src) by extensions ['colcon_pkg']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rcx/workspaece/basetask_ws/src) by extension 'colcon_pkg'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rcx/workspaece/basetask_ws/src) by extensions ['colcon_meta']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rcx/workspaece/basetask_ws/src) by extension 'colcon_meta'
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rcx/workspaece/basetask_ws/src) by extensions ['ros']
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rcx/workspaece/basetask_ws/src) by extension 'ros'
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rcx/workspaece/basetask_ws/src) by extensions ['cmake', 'python']
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rcx/workspaece/basetask_ws/src) by extension 'cmake'
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rcx/workspaece/basetask_ws/src) by extension 'python'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rcx/workspaece/basetask_ws/src) by extensions ['python_setup_py']
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rcx/workspaece/basetask_ws/src) by extension 'python_setup_py'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rcx/workspaece/basetask_ws/src/task1) by extensions ['ignore', 'ignore_ament_install']
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rcx/workspaece/basetask_ws/src/task1) by extension 'ignore'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rcx/workspaece/basetask_ws/src/task1) by extension 'ignore_ament_install'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rcx/workspaece/basetask_ws/src/task1) by extensions ['colcon_pkg']
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rcx/workspaece/basetask_ws/src/task1) by extension 'colcon_pkg'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rcx/workspaece/basetask_ws/src/task1) by extensions ['colcon_meta']
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rcx/workspaece/basetask_ws/src/task1) by extension 'colcon_meta'
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rcx/workspaece/basetask_ws/src/task1) by extensions ['ros']
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rcx/workspaece/basetask_ws/src/task1) by extension 'ros'
+[0.798s] DEBUG:colcon.colcon_core.package_identification:Package '/home/rcx/workspaece/basetask_ws/src/task1' with type 'ros.ament_cmake' and name 'task1'
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rcx/workspaece/basetask_ws/src/task2) by extensions ['ignore', 'ignore_ament_install']
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rcx/workspaece/basetask_ws/src/task2) by extension 'ignore'
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rcx/workspaece/basetask_ws/src/task2) by extension 'ignore_ament_install'
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rcx/workspaece/basetask_ws/src/task2) by extensions ['colcon_pkg']
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rcx/workspaece/basetask_ws/src/task2) by extension 'colcon_pkg'
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rcx/workspaece/basetask_ws/src/task2) by extensions ['colcon_meta']
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rcx/workspaece/basetask_ws/src/task2) by extension 'colcon_meta'
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rcx/workspaece/basetask_ws/src/task2) by extensions ['ros']
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rcx/workspaece/basetask_ws/src/task2) by extension 'ros'
+[0.802s] DEBUG:colcon.colcon_core.package_identification:Package '/home/rcx/workspaece/basetask_ws/src/task2' with type 'ros.ament_cmake' and name 'task2'
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rcx/workspaece/basetask_ws/src/task3) by extensions ['ignore', 'ignore_ament_install']
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rcx/workspaece/basetask_ws/src/task3) by extension 'ignore'
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rcx/workspaece/basetask_ws/src/task3) by extension 'ignore_ament_install'
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rcx/workspaece/basetask_ws/src/task3) by extensions ['colcon_pkg']
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rcx/workspaece/basetask_ws/src/task3) by extension 'colcon_pkg'
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rcx/workspaece/basetask_ws/src/task3) by extensions ['colcon_meta']
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rcx/workspaece/basetask_ws/src/task3) by extension 'colcon_meta'
+[0.804s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rcx/workspaece/basetask_ws/src/task3) by extensions ['ros']
+[0.804s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rcx/workspaece/basetask_ws/src/task3) by extension 'ros'
+[0.805s] DEBUG:colcon.colcon_core.package_identification:Package '/home/rcx/workspaece/basetask_ws/src/task3' with type 'ros.ament_cmake' and name 'task3'
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rcx/workspaece/basetask_ws/src/task_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rcx/workspaece/basetask_ws/src/task_interfaces) by extension 'ignore'
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rcx/workspaece/basetask_ws/src/task_interfaces) by extension 'ignore_ament_install'
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rcx/workspaece/basetask_ws/src/task_interfaces) by extensions ['colcon_pkg']
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rcx/workspaece/basetask_ws/src/task_interfaces) by extension 'colcon_pkg'
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rcx/workspaece/basetask_ws/src/task_interfaces) by extensions ['colcon_meta']
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rcx/workspaece/basetask_ws/src/task_interfaces) by extension 'colcon_meta'
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rcx/workspaece/basetask_ws/src/task_interfaces) by extensions ['ros']
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rcx/workspaece/basetask_ws/src/task_interfaces) by extension 'ros'
+[0.808s] DEBUG:colcon.colcon_core.package_identification:Package '/home/rcx/workspaece/basetask_ws/src/task_interfaces' with type 'ros.ament_cmake' and name 'task_interfaces'
+[0.808s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

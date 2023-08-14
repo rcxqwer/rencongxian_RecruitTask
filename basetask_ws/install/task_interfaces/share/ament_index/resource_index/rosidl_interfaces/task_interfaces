@@ -1,0 +1,8 @@
+srv/Coordinate.idl
+srv/Coordinate.srv
+srv/CoordinateTransformation.idl
+srv/CoordinateTransformation.srv
+srv/CoordinateTransformation_Request.msg
+srv/CoordinateTransformation_Response.msg
+srv/Coordinate_Request.msg
+srv/Coordinate_Response.msg

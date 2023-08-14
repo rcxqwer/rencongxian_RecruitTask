@@ -1,0 +1,47 @@
+[0.016s] Invoking command in '/home/rcx/workspaece/basetask_ws/build/task3': CMAKE_PREFIX_PATH=/home/rcx/workspaece/basetask_ws/install/task5:/home/rcx/workspaece/basetask_ws/install/task_interfaces:/home/rcx/workspaece/basetask_ws/install/task4:/home/rcx/workspaece/basetask_ws/install/task3:/home/rcx/workspaece/basetask_ws/install/task2:/home/rcx/workspaece/basetask_ws/install/task1:/opt/ros/foxy /usr/bin/cmake --build /home/rcx/workspaece/basetask_ws/build/task3 -- -j4 -l4
+[0.037s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.054s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.182s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.206s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.208s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.297s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.332s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.333s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.438s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[0.521s] -- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)
+[0.540s] -- Found image_transport: 2.4.0 (/opt/ros/foxy/share/image_transport/cmake)
+[0.573s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.643s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.643s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.643s] -- Configured cppcheck include dirs: 
+[0.643s] -- Configured cppcheck exclude dirs and/or files: 
+[0.644s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.644s] -- Configured cpplint exclude dirs and/or files: 
+[0.644s] -- Added test 'lint_cmake' to check CMake code style
+[0.644s] -- Added test 'uncrustify' to check C / C++ code style
+[0.645s] -- Configured uncrustify additional arguments: 
+[0.645s] -- Added test 'xmllint' to check XML markup files
+[0.647s] -- Configuring done
+[0.662s] -- Generating done
+[0.664s] -- Build files have been written to: /home/rcx/workspaece/basetask_ws/build/task3
+[0.705s] [100%] Built target detect_node
+[0.714s] Invoked command in '/home/rcx/workspaece/basetask_ws/build/task3' returned '0': CMAKE_PREFIX_PATH=/home/rcx/workspaece/basetask_ws/install/task5:/home/rcx/workspaece/basetask_ws/install/task_interfaces:/home/rcx/workspaece/basetask_ws/install/task4:/home/rcx/workspaece/basetask_ws/install/task3:/home/rcx/workspaece/basetask_ws/install/task2:/home/rcx/workspaece/basetask_ws/install/task1:/opt/ros/foxy /usr/bin/cmake --build /home/rcx/workspaece/basetask_ws/build/task3 -- -j4 -l4
+[0.750s] Invoking command in '/home/rcx/workspaece/basetask_ws/build/task3': CMAKE_PREFIX_PATH=/home/rcx/workspaece/basetask_ws/install/task5:/home/rcx/workspaece/basetask_ws/install/task_interfaces:/home/rcx/workspaece/basetask_ws/install/task4:/home/rcx/workspaece/basetask_ws/install/task3:/home/rcx/workspaece/basetask_ws/install/task2:/home/rcx/workspaece/basetask_ws/install/task1:/opt/ros/foxy /usr/bin/cmake --install /home/rcx/workspaece/basetask_ws/build/task3
+[0.756s] -- Install configuration: ""
+[0.756s] -- Up-to-date: /home/rcx/workspaece/basetask_ws/install/task3/lib/task3/detect_node
+[0.757s] -- Up-to-date: /home/rcx/workspaece/basetask_ws/install/task3/share/ament_index/resource_index/package_run_dependencies/task3
+[0.757s] -- Installing: /home/rcx/workspaece/basetask_ws/install/task3/share/ament_index/resource_index/parent_prefix_path/task3
+[0.757s] -- Up-to-date: /home/rcx/workspaece/basetask_ws/install/task3/share/task3/environment/ament_prefix_path.sh
+[0.757s] -- Installing: /home/rcx/workspaece/basetask_ws/install/task3/share/task3/environment/ament_prefix_path.dsv
+[0.757s] -- Up-to-date: /home/rcx/workspaece/basetask_ws/install/task3/share/task3/environment/path.sh
+[0.757s] -- Installing: /home/rcx/workspaece/basetask_ws/install/task3/share/task3/environment/path.dsv
+[0.757s] -- Up-to-date: /home/rcx/workspaece/basetask_ws/install/task3/share/task3/local_setup.bash
+[0.757s] -- Up-to-date: /home/rcx/workspaece/basetask_ws/install/task3/share/task3/local_setup.sh
+[0.758s] -- Up-to-date: /home/rcx/workspaece/basetask_ws/install/task3/share/task3/local_setup.zsh
+[0.758s] -- Installing: /home/rcx/workspaece/basetask_ws/install/task3/share/task3/local_setup.dsv
+[0.758s] -- Installing: /home/rcx/workspaece/basetask_ws/install/task3/share/task3/package.dsv
+[0.758s] -- Up-to-date: /home/rcx/workspaece/basetask_ws/install/task3/share/ament_index/resource_index/packages/task3
+[0.758s] -- Up-to-date: /home/rcx/workspaece/basetask_ws/install/task3/share/task3/cmake/task3Config.cmake
+[0.758s] -- Up-to-date: /home/rcx/workspaece/basetask_ws/install/task3/share/task3/cmake/task3Config-version.cmake
+[0.758s] -- Up-to-date: /home/rcx/workspaece/basetask_ws/install/task3/share/task3/package.xml
+[0.760s] Invoked command in '/home/rcx/workspaece/basetask_ws/build/task3' returned '0': CMAKE_PREFIX_PATH=/home/rcx/workspaece/basetask_ws/install/task5:/home/rcx/workspaece/basetask_ws/install/task_interfaces:/home/rcx/workspaece/basetask_ws/install/task4:/home/rcx/workspaece/basetask_ws/install/task3:/home/rcx/workspaece/basetask_ws/install/task2:/home/rcx/workspaece/basetask_ws/install/task1:/opt/ros/foxy /usr/bin/cmake --install /home/rcx/workspaece/basetask_ws/build/task3

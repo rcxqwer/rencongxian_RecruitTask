@@ -1,0 +1,25 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/rcx/workspaece/basetask_ws/install/task_interfaces/include/**",
+        "/opt/ros/foxy/include/**",
+        "/home/rcx/workspaece/basetask_ws/src/task1/include/**",
+        "/home/rcx/workspaece/basetask_ws/src/task2/include/**",
+        "/home/rcx/workspaece/basetask_ws/src/task3/include/**",
+        "/home/rcx/workspaece/basetask_ws/src/task_interfaces/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
