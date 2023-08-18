@@ -1081,6 +1081,8 @@ int main(int argc, char **argv)
 代码借鉴了https://blog.csdn.net/weixin_64054906/article/details/126674493
 因为刚开始学opencv，很多都不太懂，因此就借鉴了别人的代码，利用了别人的思路来进行实现。
 
+(暂时还没能识别到装甲板的颜色和识别数字)
+
 切换路径
 ```bash
 cd ..
